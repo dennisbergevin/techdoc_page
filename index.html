@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Technical Documentation Page</title>
+</head>
+<body>
+
+    <nav id="navbar">
+        <header>Web Content Accessibility Guidelines (WCAG)</header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#Requirements" class="nav-link">Requirements</a>
+        <a href="#Standards" class="nav-link">Standards</a>
+        <a href="#Versions" class="nav-link">Versions</a>
+        <a href="#Levels" class="nav-link">Levels</a>
+        <a href="#Reasons" class="nav-link">Reasons</a>
+        <a href="#Importance" class="nav-link">Importance</a>
+        <a href="#Validator" class="nav-link">Validator</a>
+        <a href="#References" class="nav-link">References</a>
+
+    </nav>
+
+<main id="main-doc">
+    <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>The Web Content Accessibility Guidelines (WCAG) are an important asset for businesses, organizations, and other entities who want to make their digital content accessible to all people.¹ Just like the name states, the WCAG is a step-by-step set of technical requirements explaining how you can make your website, app or other digital properties accessible to people with various kinds of disabilities.
+
+            The set of guidelines specify what to look for when reviewing a website, application, or digital document for accessibility barriers. Most importantly, following the WCAG means your business is complying with just about any federal, state, or local about accessibility for people with disabilities.</p>
+    </section>
+
+    <section class="main-section" id="Requirements">
+        <header>Requirements</header>
+        <p>WCAG covers an exhaustive list of digital elements that can be barriers for people with disabilities. The guidelines address common barriers that prevent people from using digital platforms. Barriers can be tricky because unless those barriers directly affect you, you might have an extremely difficult time knowing they exist.
+
+            The guidelines demonstrate barriers that are invisible to people without disabilities. What’s obvious to one person may not be easy to figure out for another. However, people without disabilities may notice an improved experience when you remove those invisible barriers in the form of better structure and usability.
+            
+            The guidelines cover a wealth of success criteria for achieving compliance. The following are just some examples of what the WCAG addresses:</p>
+        <ul>
+            <li>Prerecorded and live video with audio content needs to have captions, so people who are deaf can understand audio information including dialogue and sound effects.</li>
+        
+            <li>Prerecorded audio content files require a written transcript. This is also helpful for people who want to listen to an audio file, but can’t turn the sound on or hear it for whatever reason.</li>
+        
+            <li>Images must contain descriptive alternative text (alt-text) so people who are blind have an appropriate description of the image. Images that serve a structural or navigation purpose also require alt-text.</li>
+            <pre>
+                <code>
+                    alt = ""
+                </code>
+            </pre>
+               
+            <li>The on-page text must be realizable without disrupting the way the page displays so people with vision disabilities can magnify content and have an easier time reading.</li>
+       
+            <li>All form-entry tasks need to exist without a time limit or include an extended, lengthy time limit so people who need more time to fill out forms will not be excluded.</li>
+       
+            <li>Components that exist across multiple web pages, like navigation, headers, footers, and sidebars, must consistently appear in the same places across a website so people always know to find them regardless of what page they’re on. For example, your sidebar can’t change from left to right depending on the page. The navigation can’t go from being anchored to the top to appearing on the side.</li>
+        
+            <li>Users must be able to navigate your website without the use of a mouse. Users should be able to use the “tab” button on a keyboard to progress through any given page.</li>
+        
+            <li>All web pages must use proper heading level structure so users with screen readers can easily navigate the site.</li>
+            <pre>
+                <code>h1</code>
+                <code>h2</code>
+                <code>h3</code>
+                <code>h4</code>
+                <code>h5</code>
+                <code>h6</code>
+            </pre>
+        </ul>
+
+        <p>Designers, developers, and programmers involved in web development need to keep these barriers in mind when designing pages. Additionally, content creators can work with authoring tools that automatically handle many accessibility barriers, If you’re interested, you can take a deeper dive into the other WCAG 2.1 requirements.</p>
+
+        </section>
+
+    <section class="main-section" id="Standards">
+        <header>Standards</header>
+        <p>What’s special about WCAG is that it’s developed by a working group of experts from around the world, and it’s been universally accepted and adopted.
+
+            The World Wide Web Consortium (W3C) leads the international community that develops WCAG. This group of staff, member organizations, and public members from all over the globe combine their expertise and energy to create important standards for the web.
+            
+            The founder of the W3C is Sir Tim Berners-Lee, an England-based computer scientist. While Berners-Lee can’t take the credit for inventing the Internet itself, back in 1989 he came up with the world wide web (www): the organization of a space in which we all connect, using the Internet to communicate and exchange information with each other.
+            
+            It’s noteworthy that he envisioned it as an open system, universally available to everyone. Therefore, the WCAG embraces the initial vision of an open, accessible-to-all communication platform.</p>
+    </section>
+
+    <section class="main-section" id="Versions">
+        <header>Versions</header>
+        <p>Like everyone else, people with disabilities should be able to enjoy their online experience without obstacles. The WCAG have been developed to ensure equal access and opportunity. They take into account the different ways that users with disabilities use the web, such as with assistive technology or keyboard-only access.
+
+            WCAG exists in three versions: 1.0, 2.0, and 2.1. The Web Content Accessibility Guidelines 2.0 have replaced the WCAG 1.0 standards, so those are the ones your organization needs to meet to be compliant.
+            
+            While not legally enforced as of December 2019, it is smart for your organization to push towards the WCAG 2.1 standards because history implies it is only a matter of time before those become law. The 2.1 standards add to the 2.0 standards instead of replacing them.</p>
+    </section>
+
+    <section class="main-section" id="Levels">
+        <header>Levels</header>
+        <p>The guidelines are divided up into three levels of conformance: A, AA, and AAA.</p>
+
+        <ul>
+            <li>WCAG Level A: This level represents the bare-minimum of compliance.</li>
+
+            <li>WCAG Level AA: This level is the target compliance level that legally covers where a group that works with the public needs to be according to the Americans with Disabilities Act (ADA).</li>
+       
+            <li>WCAG Level AAA: Any organization that has achieved this level of compliance is exceeding requirements. It is the highest level achievable, meaning it complies with the success criteria of all three levels.</li>
+        </ul>
+
+        <p>WCAG is developed and updated the same way all other W3C standards and accessibility sets of guidelines come into being: through collaboration by stakeholders all around the world.
+
+            The first set of WCAG, known as WCAG 1.0, was released in 1999. The new-and-improved 2.0 version came out in 2008, and for 10 years it was the most up-to-date and most universally accepted set of web accessibility guidelines available.
+            
+            In June 2018, we saw the release of WCAG 2.1, which didn’t replace WCAG 2.0, but includes additional information about newer technologies, and addressed a broader range of disability-related needs. Websites that conform to 2.0 are still considered accessible, but WCAG 2.1 is a useful reference tool for organizations that need the most up-to-date guidance.</p>
+    </section>
+
+    <section class="main-section" id="Reasons">
+        <header>Reasons</header>
+        <p>We can come up with an endless list of reasons why websites should be accessible, but focusing on the main three reasons provides direction in what may seem like a substantial undertaking. Setting aside the mere fact that there are millions of people with disabilities in the world, here are three other reasons why your website should conform to WCAG:</p>
+    
+        <ol>
+            <li>It’s the law: Legislation like the ADA, Section 508 of the Rehabilitation Act, Accessibility for Ontarians with Disabilities Act (AODA), and human rights codes all make it clear that it is illegal to discriminate against people with disabilities, and that they must have equal access to any services provided by government, businesses, and other organizations.</li>
+        
+            <li>It’s a right: The United Nations’ Convention on the Rights of Persons with Disabilities, signed by 161 countries, recognizes the obligation to “promote access for persons with disabilities to new information and communications technologies and systems, including the Internet.”³</li>
+        
+            <li>It benefits businesses: In the United States alone, not only are there over 60 million people with disabilities who have billions of dollars in purchasing power. If people with disabilities can’t use your website, they will quickly turn to the website of a competitor.</li>
+        </ol>
+
+        <p>Even if you aren’t concerned about the business of these consumers, you might be surprised to learn that conforming to WCAG can provide other financial benefits.4 According to the Web Accessibility Initiative (WAI), removing barriers from your site can have a positive impact on your business. For instance, it can improve your ranking in search results, increase the functionality of your website for other groups, such as aging baby boomers, and cut your costs in areas such as technical support.
+
+            Supporting accessibility also makes a positive impression on your customers, even those without disabilities. If your website has WCAG Level AA or AAA rating, you should let your audience know. The positive word-of-mouth around being an accessibility-oriented organization can only help!</p>
+    </section>
+
+    <section class="main-section" id="Importance">
+        <header>Importance</header>
+        <p>These guidelines take the guesswork out of accessibility. Because they exist, organizations can have expert help every step of the way as they strive to make their websites usable by everyone, regardless of ability. Imagine if you brought up your website today and said, “I need to make certain all people with disabilities can use this.”
+
+            There’s no way you’d be able to cover all accessibility barriers on your own. You may be familiar with a handful of barriers like colors that don’t work for people with colorblindness or that video content needs captions for people with hearing difficulties. Many barriers are completely invisible to anyone who doesn’t experience them. The WCAG takes the guesswork out of removing barriers: it lets you know what barriers exist.
+            
+            Even with all the tools and guidelines available, most websites contain barriers. Per the U.K.-based Business Disability Forum, 70 percent of the websites the company reviews for accessibility fail the test. WCAG 2.0 and 2.1 help organizations ensure that every element of their website or app is accessible to people who have limited dexterity in their hands, have vision or hearing disabilities, go online using assistive devices, and much more.</p>
+    </section>
+
+    <section class="main-section" id="Validator">
+        <header>Validator</header>
+        <p>The W3C has more to offer than just web guidelines. It also has a Web Accessibility Evaluation Tools List.5 The tools list is a large collection of more than 100 online checkers from various organizations that allow you to run your website through automated tests for Section 508 compliance. Some tools delve into digital documents and test for PDF accessibility. The tool list also includes WCAG contrast checkers. The checkers target WCAG 2.0 or 2.1 compliance.
+
+            Keep in mind that while these online tools are useful, they won’t catch all violations. Only a qualified accessibility partner that offers manual and functional testing can uncover all the accessibility problems, provide you with a Web Content Accessibility Guidelines checklist of remediation solutions, and help you fulfill your commitment to meet the needs of all visitors to your website.</p>
+    </section>
+
+    <section class="main-section" id="References">
+        <header>References</header>
+
+        <ol>
+            <li>Web Content Accessibility Guidelines (WCAG) 2.0. W3C Recommendation 11 December 2008.</li>
+            <li>Web Content Accessibility Guidelines (WCAG) 2.1 W3C, 2018</li>
+            <li>Convention on the Rights of Persons with Disabilities. United Nations.</li>
+            <li>Financial Factors in Developing a Web Accessibility Business Case for Your Organization. Web Accessibility Initiative.</li>
+            <li>Web Accessibility Evaluation Tools List. Web Accessibility Initiative.</li>
+        </ol>
+    </section>
+</main>
+
+    
+</body>
+</html>
